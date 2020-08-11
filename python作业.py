@@ -1,9 +1,31 @@
 1.列举你了解的编码及他们之间的区别？
+ascii,（American Standard Code for Information Interchange，美国标准信息交换代码）是基于拉丁字母的一套电脑编码系统，主要用于显示现代英语和其他西欧语言，其最多只能用 8 位来表示（一个字节），即：2**8 = 256，所以，ASCII码最多只能表示 256 个符号。
+unicode,（统一码、万国码、单一码）是一种在计算机上使用的字符编码。Unicode 是为了解决传统的字符编码方案的局限而产生的，它为每种语言中的每个字符设定了统一并且唯一的二进制编码，规定虽有的字符和符号最少由 16 位来表示（2个字节），即：2 **16 = 65536，注：此处说的的是最少2个字节，可能更多.
+utf-8,是对Unicode编码的压缩和优化，他不再使用最少使用2个字节，而是将所有的字符和符号进行分类：ascii码中的内容用1个字节保存、欧洲的字符用2个字节保存，东亚的字符用3个字节保存.
+ 
 2.列举你了解的Python2和Python3的区别？
+python2默认的解释器编码ascii
+python3默认的解释器编码utf-8
+
+4. 输出
+Python2 输出写法:
+     print  'hello world'
+python3 输出写法:
+     print('hello world')
+
+
+
 3.你了解的python都有那些数据类型？
+整形
+字符串
+布尔
+字典
+列表
+集合
+
 4.补充代码，实现以下功能。
 
-1.value =  _____
+1.value =  _'51devops"niubi'____
 2.print(value)  # 要求输出  51devops"niubi
 
 5.用print打印出下面内容：
@@ -12,17 +34,57 @@
 2武能上⻢定乾坤.
 3心存谋略何人胜,
 4古今英雄唯是君。
+a = '文能提笔安天下,'
+s = '武能上⻢定乾坤.'
+d = '心存谋略何人胜,'
+f = '古今英雄唯是君。'
+print(a)
+print(s)
+print(d)
+print(f)
+
+
 
 6.变量名的命名规范和建议？
+变量名只能是 字母、数字或下划线的任意组合
+变量名的第一个字符不能是数字
+不能用python内置关键字
+[‘and’, ‘as’, ‘assert’, ‘break’, ‘class’, ‘continue’, ‘def’, ‘del’, ‘elif’, ‘else’, ‘except’, ‘exec’, ‘finally’, ‘for’, ‘from’, ‘global’, ‘if’, ‘import’, ‘in’, ‘is’, ‘lambda’, ‘not’, ‘or’, ‘pass’, ‘print’, ‘raise’, ‘return’, ‘try’, ‘while’, ‘with’, ‘yield’]
+建议：
+变量名建议不使用拼音和中文
+变量的要具有意义
+变量名不要过长
+变量名要区分大小写
+变量名推荐写法:
+驼峰体 MeetTheGirl
+下划线 meet_the_girl
+
+
 7.如下那个变量名是正确的？
 
-1 name = '51devops'
+1 name = '51devops'   正确
 2 _ = 'echo'
-3 _9 = "zhangsan"
+3 _9 = "zhangsan"     正确
 4 9name = "xxx"
 5 devops(edu = 666
+
+
 8.简述你了解if条件语句的基本结构。
+if
+  else
+  elif
+  
+
 9.设定一个理想数字比如：66，让用户输入数字，如果比66大，则显示猜测的结果大了；如果比66小，则显示猜测的结果小了;只有等于66，显示猜测结果正确。
+n = 66
+num = int(input('请输入数字：'))
+if num > n:
+    print('大')
+elif num < n:
+    print('小')
+else:
+    print('正确')
+
 
 10.写程序，成绩有ABCDE5个等级，与分数的对应关系如下.
 1 A    90-100

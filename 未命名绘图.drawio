@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-19T06:23:55.003Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="LYCPEV4qs3NNwA4oqP0w" version="15.8.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-19T06:26:07.798Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="dbJMuMKo6Qju6ZjfexYm" version="15.8.2" type="github">
   <diagram id="QvW6WbZm_dd_fuvSHhc_" name="第 1 页">
     <mxGraphModel dx="1266" dy="663" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -29,7 +29,7 @@
           <mxGeometry x="700" y="800" width="60" height="60" as="geometry" />
         </mxCell>
         <mxCell id="11fIWaa8EiRj9t-_JTXn-8" value="ADB" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="530" y="520" width="60" height="60" as="geometry" />
+          <mxGeometry x="480" y="520" width="60" height="60" as="geometry" />
         </mxCell>
         <mxCell id="11fIWaa8EiRj9t-_JTXn-15" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="200" y="720" width="20" height="140" as="geometry" />
@@ -50,7 +50,7 @@
           <mxGeometry x="560" y="760" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="11fIWaa8EiRj9t-_JTXn-23" value="MaxCompute" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="680" y="500" width="100" height="100" as="geometry" />
+          <mxGeometry x="600" y="500" width="100" height="100" as="geometry" />
         </mxCell>
         <mxCell id="11fIWaa8EiRj9t-_JTXn-24" value="数据迁移" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.isocube;isoAngle=15;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="400" y="1000" width="100" height="70" as="geometry" />
@@ -108,6 +108,9 @@
         </mxCell>
         <mxCell id="11fIWaa8EiRj9t-_JTXn-51" value="人群资产" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="820" y="240" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="11fIWaa8EiRj9t-_JTXn-54" value="数据加工" style="shape=datastore;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="760" y="515" width="80" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
